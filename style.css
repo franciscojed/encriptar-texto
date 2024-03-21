@@ -1,11 +1,17 @@
-#boton-principal {
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+}
+
+
+.botones {
     
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 24px;
 
-    position: static;
+    position: relative;
     width: 328px;
     height: 67px;
     left: 352px;
@@ -23,4 +29,5 @@
     margin: 0px 24px;
 
     font-size: 1em;
+    cursor: pointer;
 }

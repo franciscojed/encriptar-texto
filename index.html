@@ -9,15 +9,19 @@
 </head>
 <body>
     <header>
-        <h1>Encriptador de Texto</h1>
+        <h1>Encriptador de Texto <img src="images/logo.png" alt=""></h1>
     </header>
     <section>
-        <form action="">
-            <textarea name="texto" id="entrada-texto" cols="30" rows="10"></textarea>
-            <input type="submit" value="Encriptar" id="boton-principal">
+        <form>
+            <textarea id="entrada-texto" placeholder="Escribe el texto a encriptar" cols="30" rows="10"></textarea>
+            <textarea id="salida-texto" cols="30" rows="10"></textarea>
+            <buton id="boton-encriptar" class="botones" onclick="encriptar()">Encriptar</buton> 
+            <buton id="boton-desencriptar" class="botones" onclick="desencriptar()">Desencriptar</buton>
+            <button id="boton-copiar">Copiar</button>
         </form>
     </section>
     <footer>Francisco Escobar - 2024</footer>
 </body>
 <script src="app.js"></script>
+
 </html>
